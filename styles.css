@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(350deg, #b366ff, #6600cc); /* Degradado de morado claro a morado oscuro */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #6600cc;
+}
+
+.choices button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.choices button:hover {
+    background-color: #3397;
+    transform: scale(1.1);
+}
+
+.choices i {
+    margin-right: 8px;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+#resultado {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #3394;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    color: #333;
+}
+
+.winner {
+    color: #4CAF50;
+}
+
+.loser {
+    color: #f44336;
+}
+
+.draw {
+    color: #FFC107;
+}
+
+#reiniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #008CBA;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#reiniciar:hover {
+    background-color: #005f6b;
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}

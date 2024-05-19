@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Agregamos Font Awesome -->
+</head>
+<body>
+    <div class="container">
+        <h1>Juega y gana a nuestra IA</h1>
+        <h3>Gana el mejor de 3 partidas</h3>
+        <div class="choices">
+            <button id="piedra"><i class="far fa-hand-rock"></i> Piedra</button>
+            <button id="papel"><i class="far fa-hand-paper"></i> Papel</button>
+            <button id="tijera"><i class="far fa-hand-scissors"></i> Tijera</button>
+        </div>
+        <div class="scoreboard">
+            <span>Jugador: <span id="marcador-jugador">0</span></span>
+            <span>IA: <span id="marcador-ia">0</span></span>
+        </div>
+        <div class="resultado" id="resultado"></div>
+        <button id="reiniciar" class="hidden">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
